@@ -1,7 +1,7 @@
 <?php
     $destinatario = "chinztenorio@gmail.com";
     $nombre = $_POST["nombre"];
-    $asunto = $_POST["'asunto"];
+    $asunto = $_POST["asunto"];
     $mensaje = $_POST["mensaje"];
     $email = $_POST["email"];
 
