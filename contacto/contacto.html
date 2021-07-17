@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="../CSS/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+        <!-- Menú de Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/w3newbie.png" alt=""></a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item "><a href="../index.html" class="nav-link item">Home</a></li>
+					<li class="nav-item"><a href="../servicios/servicios.html" class="nav-link item">Servicios</a></li>
+					<li class="nav-item"><a href="#" class="nav-link item-act">Contactos</a></li>
+				</ul>
+			</div> 
+		</div>
+	</nav>
+
+    <!--- Formulario -->
+<section class="body">
+    <form action="correos.php" method="POST">
+        <div class="form">
+            <h1>Contactanos</h1>
+            <div class="grupo">
+                <input type="text" name="nombre" id="" required><span class="barra"></span>
+                <label>Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="email" id="" required><span class="barra"></span>
+                <label>Email</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="asunto" id="" required><span class="barra"></span>
+                <label>Asunto</label>
+            </div>
+            <div class="grupo">
+                <textarea name="mensaje" id="" rows="3" required></textarea><span class="barra"></span>
+                <label>Mensaje</label>
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</section>
+
+    <!--- Footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/w3newbie.png" alt="">
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@myemail.com</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Horario de Atención</h5>
+				<hr class="light">
+				<p>Lunes: 9am - 5pm</p>
+				<p>Miercoles: 9am - 5pm</p>
+				<p>Viernes: 9am - 5pm</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Dirección</h5>
+				<hr class="light">
+				<p>City, State, 00000</p>
+				<p>100 State Name</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; nombre-copy.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>

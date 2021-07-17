@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Menú de Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="img/w3newbie.png" alt=""></a>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link item-act">Home</a></li>
+					<li class="nav-item"><a href="servicios/servicios.html" class="nav-link item">Servicios</a></li>
+					<li class="nav-item"><a href="contacto/contacto.html" class="nav-link item">Contactos</a></li>
+				</ul>
+			</div> 
+		</div>
+	</nav>
+    <!--- Seccion principal -->
+    <section class="sec_prin">
+        <div class="banner_video">
+            <video src=""></video>
+        </div>
+        <section class="banner">
+            <div class="banner_img">
+                <img src="img/Pruebas.png" alt="">
+            </div>
+            <section class="informacion">
+                <div class="container-new"> 
+                    <div class="card">
+                        <div class="content-new">
+                            <h3>titulo 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum in dolorum perspiciatis asperiores odio, numquam corrupti sint eius, error incidunt quaerat, nostrum quam nihil ad quidem commodi quibusdam inventore neque cumque id aspernatur nisi suscipit repudiandae! Cupiditate dignissimos iste nesciunt molestiae excepturi magni aliquid sed laboriosam consectetur, commodi architecto at dolor ea quasi, error beatae similique. Officia, ratione laborum.</p>
+                        </div>
+                        <a class="more"></a>
+                    </div>
+                    <div class="card">
+                        <div class="content-new">
+                            <h3>titulo 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum in dolorum perspiciatis asperiores odio, numquam corrupti sint eius, error incidunt quaerat, nostrum quam nihil ad quidem commodi quibusdam inventore neque cumque id aspernatur nisi suscipit repudiandae! Cupiditate dignissimos iste nesciunt molestiae excepturi magni aliquid sed laboriosam consectetur, commodi architecto at dolor ea quasi, error beatae similique. Officia, ratione laborum.</p>
+                        </div>
+                        <a class="more"></a>
+                    </div>
+                    <div class="card">
+                        <div class="content-new">
+                            <h3>titulo 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rerum in dolorum perspiciatis asperiores odio, numquam corrupti sint eius, error incidunt quaerat, nostrum quam nihil ad quidem commodi quibusdam inventore neque cumque id aspernatur nisi suscipit repudiandae! Cupiditate dignissimos iste nesciunt molestiae excepturi magni aliquid sed laboriosam consectetur, commodi architecto at dolor ea quasi, error beatae similique. Officia, ratione laborum.</p>
+                        </div>
+                        <a class="more"></a>
+                    </div>
+                </div>
+            </section>
+                <!--- Codigo JavaScript -->
+            <script>
+                let more = document.querySelectorAll('.more');
+                for (let i = 0; i<more.length; i++){
+                    more[i].addEventListener('click', function(){
+                        more[i].parentNode.classList.toggle('active')
+                    })
+                }
+            </script>
+    </section>
+
+    <!--- Footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/w3newbie.png" alt="">
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@myemail.com</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Horario de Atención</h5>
+				<hr class="light">
+				<p>Lunes: 9am - 5pm</p>
+				<p>Miercoles: 9am - 5pm</p>
+				<p>Viernes: 9am - 5pm</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Dirección</h5>
+				<hr class="light">
+				<p>City, State, 00000</p>
+				<p>100 State Name</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; nombre-copy.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
