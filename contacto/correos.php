@@ -1,9 +1,9 @@
 <?php
-    $destinatario = 'chinztenorio@gmail.com';
-    $nombre = $_POST['nombre'];
-    $asunto = $_POST['asunto'];
-    $mensaje = $_POST['mensaje'];
-    $email = $_POST['email'];
+    $destinatario = "chinztenorio@gmail.com";
+    $nombre = $_POST["nombre"];
+    $asunto = $_POST["'asunto"];
+    $mensaje = $_POST["mensaje"];
+    $email = $_POST["email"];
 
     $header = "Enviado desde la pagina de Peluqueria";
     $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
