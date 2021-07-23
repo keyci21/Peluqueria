@@ -18,6 +18,7 @@ html, body {
 }
 .navbar {
     padding: .8rem;
+    background: #000;
     } 
 .navbar .container-fluid .navbar-toggler {
     outline: none;
