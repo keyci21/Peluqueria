@@ -38,10 +38,10 @@ html, body {
     margin-top: 40px;
     background: #fff;
 }
-.sec_prin .banner_video img {
+.sec_prin .banner_video video {
     width: 100%;
     height: 500px;
-    object-fit:fill;
+    object-fit:cover;
 }
 /* informacion */
 .informacion{
