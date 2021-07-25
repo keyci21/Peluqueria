@@ -30,6 +30,11 @@ html, body {
 .navbar .container-fluid ul li .item-act:hover {
     color: #f9fd00;
     }
+.navbar .container-fluid a img{
+    width: 200px;
+    height: 80px;
+}
+
 
 .sec_prin .banner_video{
     width: 80%;
@@ -176,3 +181,7 @@ hr.light-100 {
 .hr {
     border-top: solid 2px #000 !important;
     }
+footer img {
+    width: 200px;
+    height: 100px;
+}
